@@ -14,7 +14,7 @@
     const SPREADSHEET_ID = '1912KUGBGzpPKM3t0QpHQJyde0kYK4Qtc1xgX3cc35d8'
     const CLIENT_ID = ''
     const API_KEY = 'AIzaSyCXmK-Auhzwj6XOclM1yViv-3lA4-hJiAc'
-    const SCOPE = 'https://www.googleapis.com/auth/spreadsheets'
+    const SCOPE = 'https://www.googleapis.com/v4/spreadsheets'
 
     const url = `${SCOPE}/${SPREADSHEET_ID}/values/Sheet1!A1:D5?key=${API_KEY}`;
     
