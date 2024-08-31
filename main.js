@@ -16,7 +16,7 @@
     const API_KEY = 'AIzaSyCXmK-Auhzwj6XOclM1yViv-3lA4-hJiAc'
     const SCOPE = 'https://www.googleapis.com/v4/spreadsheets'
 
-    const url = `${SCOPE}/${SPREADSHEET_ID}?key=${API_KEY}`;
+    const url = `${SCOPE}/${SPREADSHEET_ID}/values/Sheet1!A1:D5?key=${API_KEY}`;
     
     try {
         // Envoyer la requête GET à l'API Google Sheets.
